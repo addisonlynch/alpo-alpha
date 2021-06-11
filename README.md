@@ -1,7 +1,5 @@
 # ALPO Alpha
 
-*README forthcoming.*
-
 ## Important Note
 
 Any text that looks like ``this`` must be spelled and capitalized **excatly as shown**.
@@ -9,12 +7,12 @@ Any text that looks like ``this`` must be spelled and capitalized **excatly as s
 
 ## Spreadsheets
 
-Place both of the below spreadsheets(Google Forms and the results) in the same
+Place both of the below spreadsheets (Google Forms and results) in the same
 folder as ``alpha.py``. 
 
 ### Google Forms
 
-Download the **Google Forms spreadsheet** and ensure that the following columns
+Download the poll results directly from Google Forms and ensure that the following columns
 (spelled **exactly** as below, including capitalization) are present **in any order**.
 
 * ``Full Name`` - *Used to sort the results workbook by first name*
@@ -29,12 +27,12 @@ An example spreadsheet is shown below:
 
 | Timestamp          | Full Name       | 3 Unit Pick                                 | 2 Unit Pick                   | 1 Unit Pick                                |
 | ------------------ | --------------- | ------------------------------------------- | ----------------------------- | ------------------------------------------ |
-| 6/10/2021 18:38:30 | Zizo Xansour    | Turkey ML (+488)                            | Los Angeles Dodgers ML (-300) | Wales vs Switzerland OVER 2.5 Goals (-110) |
+| 6/10/2021 18:38:30 | Ian Ackerman    | Turkey ML (+488)                            | Los Angeles Dodgers ML (-300) | Wales vs Switzerland OVER 2.5 Goals (-110) |
 | 6/10/2021 18:39:24 | Jordan Aghimien | Miami Marlins (+120)                        | Turkey vs. Italy DRAW (+299)  | Pirates ML (+10000000000)                  |
 | 6/10/2021 18:41:22 | Zizo Mansour    | Bucks ML (-130)                             | Pirates ML (+10000000000)     | Atlanta Braves ML (-130)                   |
 | 6/10/2021 18:43:09 | Addison Lynch   | Wales vs Switzerland UNDER 2.5 Goals (-110) | Turkey vs. Italy DRAW (+299)  | Los Angeles Dodgers ML (-300)              |
 
-An Excel workbook is located in the **examples** folder of this repository named "googleforms.xlsx".
+An example Excel workbook is located in the **examples** folder of this repository named "googleforms.xlsx".
 
 
 ### Results
@@ -44,7 +42,7 @@ The results spreadsheet must have two columns only, ``Pick`` and ``Result`` spel
 The values for the ``Result`` column must either be:
 
 * ``win``
-* ``lose`
+* ``lose``
 * ``push``
 
 Copy and paste each of the possible picks into the ``Pick`` column,
@@ -74,7 +72,7 @@ An example spreadsheet is shown below:
 | Wales vs Switzerland OVER 2.5 Goals (-110)  | win    |
 | Wales vs Switzerland UNDER 2.5 Goals (-110) | lose   |
 
-An Excel workbook is located in the **examples** folder of this repository named "results.xlsx".
+An example Excel workbook is located in the **examples** folder of this repository named "results.xlsx".
 
 ###
 
