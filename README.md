@@ -103,3 +103,5 @@ Forms and results spreadsheet, both located in the same folder as ``alpha.py``
 
 An excel workbook with a name beginning with ``scores_`` followed by the current
 date and time will be generated in the same folder as ``alpha.py`` with the results.
+
+The workbook is sorted by first name. Subsequent sorting may be done directly in Excel.

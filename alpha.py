@@ -6,12 +6,14 @@ from alpo_alpha.helpers import process_results, validate_results, validate_resul
 
 
 parser = argparse.ArgumentParser(description="Process excel sheets")
-parser.add_argument("GoogleFormsFilename", type=str, help="Path to Google Forms workbook")
+parser.add_argument(
+    "GoogleFormsFilename", type=str, help="Path to Google Forms workbook"
+)
 parser.add_argument("ResultsFilename", type=str, help="Path to results workbook")
 args = parser.parse_args()
 
 # Read google forms excel spreadsheet
-df = pd.read_excel(args.WorkbookFilename)
+df = pd.read_excel(args.GoogleFormsFilename)
 df.dropna(how="all", inplace=True)
 # Read results excel spreadsheet
 results = pd.read_excel(args.ResultsFilename)
