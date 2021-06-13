@@ -77,7 +77,7 @@ def process_results(series: str, weight: float, results: pd.DataFrame) -> float:
     elif result == "push":
         return float(0)
     elif result == "win":
-        return odds_to_decimal(parse_choice_string(series)) + weight
+        return (weight * odds_to_decimal(parse_choice_string(series))) + weight
     else:
         raise Exception("Invalid results file format.")
 
